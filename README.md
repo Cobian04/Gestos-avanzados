@@ -1,50 +1,34 @@
-# Welcome to your Expo app 👋
+# App de Notas
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Esta es una aplicación móvil desarrollada en React Native (con Expo) para la gestión y organización de notas. El proyecto fue desarrollado para cumplir con los requerimientos específicos de la asignatura, implementando interacciones modernas de interfaz de usuario.
 
-## Get started
+## 🚀 Funcionalidades Principales
 
-1. Install dependencies
+De acuerdo con los requisitos del proyecto, la aplicación incluye las siguientes características:
+
+- **Listado de Notas:** Pantalla principal ("Mis notas") que muestra todas las tareas e informes pendientes.
+- **Gestión de Favoritos:** Posibilidad de marcar notas como favoritas, destacándolas visualmente con un ícono de corazón (❤️).
+- **Menú de Acciones (Action Menu):** Al interactuar con una nota, se despliega un menú contextual con opciones para:
+  - Eliminar la nota.
+  - Marcar/Desmarcar como favorita.
+  - Cancelar la acción.
+- **Gestos de Deslizamiento (Swipe-to-delete):** Implementación de gestos táctiles que permiten deslizar un elemento de la lista hacia la izquierda para revelar un botón rápido de eliminación (🗑️).
+- **Navegación:** Menú de navegación inferior (Bottom Tabs) para moverte fluidamente entre las pantallas de "Home" y "Explore".
+
+## 🛠️ Tecnologías Utilizadas
+
+- React Native
+- Expo
+- Navegación (React Navigation)
+- Componentes de UI y Gestos (Reanimated / Gesture Handler)
+
+## ⚙️ Instalación y Uso
+
+Para correr este proyecto en tu entorno local:
+
+1. Clona este repositorio.
+2. Instala las dependencias:
 
    ```bash
    npm install
    ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
